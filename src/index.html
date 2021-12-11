@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Navbar</title>
 </head>
+
 <body>
-    
+
+    <nav class="navbar navbar--expand-sm navbar--has-shadow">
+        <a class="navbar__brand" href="#">
+            <img class="navbar__brand-img" src="https://via.placeholder.com/300x100" alt="">
+        </a>
+        <button class="navbar__toggler-button" type="button">
+            <span class="navbar__toggler-button-icon"></span>
+        </button>
+        <div class="navbar__collapse-content">
+            <ul class="navbar__nav-list">
+                <li class="navbar__nav-item">
+                    <a class="navbar__nav-link navbar__nav-link--active" href="#">Home</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a class="navbar__nav-link" href="#">Link 1</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a class="navbar__nav-link" href="#">Link 2</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a class="navbar__nav-link" href="#">Link 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <script src="js/navbar.js"></script>
 </body>
+
 </html>
