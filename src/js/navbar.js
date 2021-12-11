@@ -1,3 +1,4 @@
+// Toggle the collapsed navbar content
 const navbarTogglerButton = document.querySelector(".navbar__toggler-button");
 const navbarTogglerButtonIcon = document.querySelector(".navbar__toggler-button-icon");
 const navbarCollapseContent = document.querySelector(".navbar__collapse-content");
