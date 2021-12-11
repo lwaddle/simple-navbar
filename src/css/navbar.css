@@ -26,8 +26,13 @@
 
 .navbar__toggler-button {
     background-color: transparent;
+    border-color: transparent;
     border: 0;
     cursor: pointer;
+}
+
+.navbar__toggler-button:focus-visible {
+    outline: transparent;
 }
 
 .navbar__toggler-button-icon {
