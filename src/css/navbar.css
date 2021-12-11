@@ -31,10 +31,6 @@
     cursor: pointer;
 }
 
-.navbar__toggler-button:focus-visible {
-    outline: transparent;
-}
-
 .navbar__toggler-button-icon {
     display: inline-block;
     vertical-align: middle;
